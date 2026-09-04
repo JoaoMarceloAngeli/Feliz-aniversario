@@ -1,0 +1,6 @@
+Coloque aqui a foto da Heloisa com o nome exato: heloisa.jpg
+
+Caminho final: assets/heloisa.jpg
+Se o arquivo nao existir, a tela mostra um bolo animado no lugar da foto.
+
+Opcional: fundo.jpg substitui o desenho de fundo (fundo.svg) por uma foto sua.

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Feliz Aniversário</title>
+  <meta name="description" content="Uma tela de parabéns com um botão de feliz aniversário.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="tela">
+    <div class="conteudo">
+      <p class="mensagem">Tenha um feliz aniversário</p>
+
+      <div class="setas" aria-hidden="true">
+        <svg class="seta" viewBox="0 0 40 40" fill="none">
+          <path d="M8 8 L26 20 L8 32" stroke="currentColor" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <svg class="seta" viewBox="0 0 40 40" fill="none">
+          <path d="M8 8 L26 20 L8 32" stroke="currentColor" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <svg class="seta" viewBox="0 0 40 40" fill="none">
+          <path d="M8 8 L26 20 L8 32" stroke="currentColor" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+
+      <button class="botao" id="botaoParabens" type="button">Tenha um feliz aniversário</button>
+    </div>
+  </main>
+
+  <!-- Aparece quando o botão é apertado -->
+  <div class="festa" id="festa" role="dialog" aria-modal="true" aria-labelledby="festaMensagem" hidden>
+    <img class="festa__foto" id="festaFoto" src="assets/heloisa.jpg" alt="Foto da Heloísa">
+    <div class="festa__semFoto" id="festaSemFoto" aria-hidden="true">🎂</div>
+
+    <p class="festa__mensagem" id="festaMensagem">
+      Feliz aniversário, Heloísa!
+      <span>Deus lhe abençoe e bom bolo, tmj fera 🎉</span>
+    </p>
+
+    <button class="festa__fechar" id="festaFechar" type="button" aria-label="Fechar">&times;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

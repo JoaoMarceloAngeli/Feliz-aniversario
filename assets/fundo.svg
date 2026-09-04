@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Fundo de festa de aniversario com bolo, velas, baloes e bandeirinhas">
+  <defs>
+    <pattern id="listras" width="26" height="26" patternUnits="userSpaceOnUse">
+      <rect width="26" height="26" fill="#83d5e6"/>
+      <rect width="13" height="26" fill="#6cc6dc"/>
+    </pattern>
+
+    <g id="estrela">
+      <path d="M0,-10 L2.9,-3.4 L9.8,-3.1 L4.4,1.3 L6.2,8 L0,4.3 L-6.2,8 L-4.4,1.3 L-9.8,-3.1 L-2.9,-3.4 Z"/>
+    </g>
+
+    <g id="morango">
+      <path d="M0,15 C-13,3 -14,-11 0,-11 C14,-11 13,3 0,15 Z" fill="#e8262f"/>
+      <circle cx="-5" cy="-4" r="1.1" fill="#fff"/>
+      <circle cx="4" cy="-5" r="1.1" fill="#fff"/>
+      <circle cx="0" cy="1" r="1.1" fill="#fff"/>
+      <circle cx="-6" cy="3" r="1.1" fill="#fff"/>
+      <circle cx="6" cy="2" r="1.1" fill="#fff"/>
+      <circle cx="-1" cy="8" r="1.1" fill="#fff"/>
+      <path d="M-11,-11 L0,-16 L11,-11 L0,-7 Z" fill="#3f8f3a"/>
+    </g>
+
+    <g id="chama">
+      <path d="M0,4 C-9,-6 -7,-16 0,-26 C7,-16 9,-6 0,4 Z" fill="#e8262f"/>
+      <path d="M0,2 C-5,-5 -4,-12 0,-18 C4,-12 5,-5 0,2 Z" fill="#f4a08a"/>
+    </g>
+
+    <g id="bandeirinhas">
+      <path d="M0,18 Q120,118 252,92" fill="none" stroke="#3f8f3a" stroke-width="3"/>
+      <g transform="translate(22,42) rotate(-24)"><path d="M-15,0 L15,0 L0,34 Z" fill="#e8262f"/></g>
+      <g transform="translate(66,66) rotate(-17)"><path d="M-15,0 L15,0 L0,34 Z" fill="#f5a623"/></g>
+      <g transform="translate(112,84) rotate(-9)"><path d="M-15,0 L15,0 L0,34 Z" fill="#3d9dbd"/></g>
+      <g transform="translate(158,94) rotate(-2)"><path d="M-15,0 L15,0 L0,34 Z" fill="#8dc63f"/></g>
+      <g transform="translate(205,96) rotate(6)"><path d="M-15,0 L15,0 L0,34 Z" fill="#e8262f"/></g>
+      <g transform="translate(248,88) rotate(14)"><path d="M-15,0 L15,0 L0,34 Z" fill="#f5a623"/></g>
+    </g>
+
+    <g id="balao">
+      <ellipse cx="0" cy="0" rx="29" ry="35"/>
+      <path d="M-7,33 L7,33 L3,42 L-3,42 Z"/>
+      <circle cx="-10" cy="-11" r="6" fill="#fff"/>
+    </g>
+  </defs>
+
+  <rect width="640" height="900" fill="url(#listras)"/>
+
+  <!-- baloes -->
+  <g>
+    <path d="M62,452 q14,26 -2,48 q-14,22 2,44" fill="none" stroke="#e8497d" stroke-width="2"/>
+    <g transform="translate(62,410)" fill="#e8497d"><use href="#balao"/></g>
+    <path d="M104,588 q14,26 -2,48 q-14,22 2,44" fill="none" stroke="#8dc63f" stroke-width="2"/>
+    <g transform="translate(104,546)" fill="#8dc63f"><use href="#balao"/></g>
+    <path d="M578,498 q-14,26 2,48 q14,22 -2,44" fill="none" stroke="#3d9dbd" stroke-width="2"/>
+    <g transform="translate(578,456)" fill="#3d9dbd"><use href="#balao"/></g>
+  </g>
+
+  <!-- estrelas -->
+  <g>
+    <use href="#estrela" transform="translate(255,322) scale(2.4)" fill="none" stroke="#fff" stroke-width="2.4"/>
+    <use href="#estrela" transform="translate(78,190) scale(2.6)" fill="none" stroke="#fff" stroke-width="2.4"/>
+    <use href="#estrela" transform="translate(583,590) scale(2.6)" fill="none" stroke="#4aa3bd" stroke-width="2.4"/>
+    <use href="#estrela" transform="translate(383,118) scale(1.9)" fill="#fff"/>
+    <use href="#estrela" transform="translate(258,104) scale(1.5)" fill="#4aa3bd"/>
+    <use href="#estrela" transform="translate(414,338) scale(1.6)" fill="#4aa3bd"/>
+    <use href="#estrela" transform="translate(128,300) scale(1.4)" fill="#4aa3bd"/>
+    <use href="#estrela" transform="translate(500,528) scale(1.7)" fill="#fff"/>
+    <use href="#estrela" transform="translate(46,636) scale(1.7)" fill="#fff"/>
+    <use href="#estrela" transform="translate(124,472) scale(1.3)" fill="#4aa3bd"/>
+    <use href="#estrela" transform="translate(534,300) scale(1.5)" fill="#fff"/>
+    <use href="#estrela" transform="translate(470,196) scale(1.3)" fill="#4aa3bd"/>
+  </g>
+
+  <!-- confetes -->
+  <g>
+    <path d="M18,690 q26,-16 22,14 q-4,30 24,16" fill="none" stroke="#f5a623" stroke-width="4"/>
+    <path d="M556,676 q28,-18 24,14 q-4,32 26,16" fill="none" stroke="#f5a623" stroke-width="4"/>
+    <path d="M600,720 q-24,18 -4,34 q20,16 -6,32" fill="none" stroke="#e8497d" stroke-width="4"/>
+    <g fill="#e8262f"><rect x="34" y="748" width="14" height="7" transform="rotate(-25 41 751)"/><rect x="596" y="800" width="14" height="7" transform="rotate(35 603 803)"/></g>
+    <g fill="#3d9dbd"><rect x="70" y="792" width="14" height="7" transform="rotate(20 77 795)"/><rect x="560" y="756" width="14" height="7" transform="rotate(-40 567 759)"/></g>
+    <g fill="#8dc63f"><rect x="24" y="822" width="14" height="7" transform="rotate(-15 31 825)"/><rect x="608" y="852" width="14" height="7" transform="rotate(25 615 855)"/></g>
+    <g fill="#f5a623"><rect x="88" y="856" width="14" height="7" transform="rotate(40 95 859)"/><rect x="548" y="864" width="14" height="7" transform="rotate(-30 555 867)"/></g>
+  </g>
+
+  <!-- chapeus de festa -->
+  <g>
+    <path d="M46,900 L34,832 L104,868 Z" fill="#3d9dbd"/>
+    <path d="M40,868 L86,890" stroke="#fff" stroke-width="6" fill="none"/>
+    <path d="M596,900 L618,834 L556,878 Z" fill="#e8497d"/>
+    <path d="M604,870 L566,890" stroke="#fff" stroke-width="6" fill="none"/>
+  </g>
+
+  <!-- velas -->
+  <g>
+    <g transform="translate(228,0)">
+      <rect x="-17" y="452" width="34" height="196" rx="8" fill="#8dc63f"/>
+      <path d="M-17,470 L1,452 M-17,500 L17,466 M-17,530 L17,496 M-17,560 L17,526 M-17,590 L17,556 M-17,620 L17,586 M-3,646 L17,626" stroke="#5fa62c" stroke-width="7" fill="none"/>
+      <use href="#chama" transform="translate(0,448)"/>
+    </g>
+    <g transform="translate(322,0)">
+      <rect x="-19" y="418" width="38" height="232" rx="9" fill="#f2669a"/>
+      <path d="M-19,438 L3,418 M-19,470 L19,434 M-19,502 L19,466 M-19,534 L19,498 M-19,566 L19,530 M-19,598 L19,562 M-19,630 L19,594 M-1,648 L19,628" stroke="#e03b7c" stroke-width="7" fill="none"/>
+      <use href="#chama" transform="translate(0,414) scale(1.15)"/>
+    </g>
+    <g transform="translate(412,0)">
+      <rect x="-17" y="458" width="34" height="192" rx="8" fill="#3d9dbd"/>
+      <path d="M-17,476 L1,458 M-17,506 L17,472 M-17,536 L17,502 M-17,566 L17,532 M-17,596 L17,562 M-17,626 L17,592 M-3,648 L17,628" stroke="#2b7d99" stroke-width="7" fill="none"/>
+      <use href="#chama" transform="translate(0,454)"/>
+    </g>
+  </g>
+
+  <!-- bolo: andar de cima -->
+  <g>
+    <path d="M150,712 C146,650 172,624 206,632 C232,608 274,614 300,630 C330,606 376,612 402,632 C438,616 480,634 486,668 C498,684 494,706 486,714 Z" fill="#fffdf6"/>
+    <rect x="164" y="712" width="308" height="46" fill="#7a4a2b"/>
+    <rect x="164" y="742" width="308" height="10" fill="#fffdf6" opacity=".85"/>
+    <rect x="158" y="752" width="320" height="42" fill="#fffdf6"/>
+    <path d="M158,794 q20,-22 40,0 q20,-22 40,0 q20,-22 40,0 q20,-22 40,0 q20,-22 40,0 q20,-22 40,0 q20,-22 40,0 q20,-22 40,0 v-10 h-320 z" fill="#fffdf6"/>
+    <g>
+      <use href="#morango" transform="translate(188,652) scale(1.15)"/>
+      <use href="#morango" transform="translate(268,656) scale(1.15)"/>
+      <use href="#morango" transform="translate(356,652) scale(1.15)"/>
+      <use href="#morango" transform="translate(444,646) scale(1.15)"/>
+      <use href="#morango" transform="translate(228,692) scale(1.1)"/>
+      <use href="#morango" transform="translate(316,690) scale(1.1)"/>
+      <use href="#morango" transform="translate(402,690) scale(1.1)"/>
+    </g>
+  </g>
+
+  <!-- bolo: andar de baixo -->
+  <g>
+    <path d="M92,846 C92,806 116,790 150,790 h340 C524,790 548,806 548,846 Z" fill="#fffdf6"/>
+    <rect x="104" y="846" width="432" height="54" fill="#7a4a2b"/>
+    <path d="M104,846 h432 v14 q-27,20 -54,0 q-27,20 -54,0 q-27,20 -54,0 q-27,20 -54,0 q-27,20 -54,0 q-27,20 -54,0 q-27,20 -54,0 q-27,20 -54,0 z" fill="#fffdf6"/>
+    <g>
+      <use href="#morango" transform="translate(146,812) scale(1.2)"/>
+      <use href="#morango" transform="translate(238,818) scale(1.2)"/>
+      <use href="#morango" transform="translate(330,812) scale(1.2)"/>
+      <use href="#morango" transform="translate(422,818) scale(1.2)"/>
+      <use href="#morango" transform="translate(506,812) scale(1.2)"/>
+    </g>
+  </g>
+
+  <!-- topo branco ondulado + bandeirinhas -->
+  <g>
+    <path d="M0,0 H640 V40 q-20,30 -40,0 q-20,30 -40,0 q-20,30 -40,0 q-20,30 -40,0 q-20,30 -40,0 q-20,30 -40,0 q-20,30 -40,0 q-20,30 -40,0 q-20,30 -40,0 q-20,30 -40,0 q-20,30 -40,0 q-20,30 -40,0 q-20,30 -40,0 q-20,30 -40,0 q-20,30 -40,0 q-20,30 -40,0 Z" fill="#fff"/>
+    <use href="#bandeirinhas"/>
+    <g transform="translate(640,0) scale(-1,1)"><use href="#bandeirinhas"/></g>
+  </g>
+</svg>
