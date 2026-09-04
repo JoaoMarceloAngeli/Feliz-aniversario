@@ -221,6 +221,8 @@ body.festa-aberta {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  /* A foto é vertical: puxa o corte para cima para o rosto não sumir em tela larga. */
+  object-position: 50% 30%;
   transform: scale(0.02);
   transform-origin: center center;
   will-change: transform;
@@ -324,4 +326,15 @@ body.festa-aberta {
   .festa--tocando .festa__mensagem {
     animation-duration: 0.01ms;
   }
+}
+
+/* ---------- Papel picado (fica por cima de tudo, sem bloquear cliques) ---------- */
+
+.confete {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
 }
