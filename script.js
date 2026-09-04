@@ -5,6 +5,7 @@
   var festa = document.getElementById("festa");
   var foto = document.getElementById("festaFoto");
   var fechar = document.getElementById("festaFechar");
+  var audio = document.getElementById("festaAudio");
   var canvas = document.getElementById("confete");
   var ctx = canvas.getContext("2d");
 
@@ -153,7 +154,19 @@
     void festa.offsetWidth;
     festa.classList.add("festa--tocando");
     soltarConfete();
+    tocarAudio();
     fechar.focus();
+  }
+
+  function tocarAudio() {
+    audio.currentTime = 0;
+    var tentativa = audio.play();
+    // Alguns navegadores devolvem uma promessa que pode ser recusada.
+    if (tentativa && typeof tentativa.catch === "function") {
+      tentativa.catch(function () {
+        /* Sem som: a festa continua do mesmo jeito. */
+      });
+    }
   }
 
   function fecharFesta() {
@@ -161,6 +174,8 @@
     festa.classList.remove("festa--tocando");
     document.body.classList.remove("festa-aberta");
     pararConfete();
+    audio.pause();
+    audio.currentTime = 0;
     botao.focus();
   }
 
