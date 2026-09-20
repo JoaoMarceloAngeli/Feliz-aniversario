@@ -1,6 +1,6 @@
-Coloque aqui a foto do Joao com o nome exato: joao.png
+Coloque aqui a foto da Natalia com o nome exato: natalia.jpeg
 
-Caminho final: assets/joao.png
+Caminho final: assets/natalia.jpeg
 Se o arquivo nao existir, a tela mostra um bolo animado no lugar da foto.
 
 Opcional: fundo.jpg substitui o desenho de fundo (fundo.svg) por uma foto sua.
