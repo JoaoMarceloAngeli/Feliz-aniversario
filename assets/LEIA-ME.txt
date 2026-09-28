@@ -1,6 +1,3 @@
-Coloque aqui a foto da Izabelly com o nome exato: izabelly.png
+﻿Coloque aqui a foto da Ana Luiza com o nome exato: ana-luiza.jpeg
 
-Caminho final: assets/izabelly.png
-Se o arquivo nao existir, a tela mostra um bolo animado no lugar da foto.
-
-Opcional: fundo.jpg substitui o desenho de fundo (fundo.svg) por uma foto sua.
+Caminho final: assets/ana-luiza.jpeg
