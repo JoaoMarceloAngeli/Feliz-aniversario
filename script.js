@@ -11,7 +11,7 @@
 
   var semMovimento = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  // Se assets/ana-luiza.jpeg ainda não existir, mostra o bolo no lugar da foto.
+  // Se assets/marina.png ainda não existir, mostra o bolo no lugar da foto.
   foto.addEventListener("error", function () {
     festa.classList.add("festa--sem-foto");
   });

@@ -1,3 +1,3 @@
-﻿Coloque aqui a foto da Ana Luiza com o nome exato: ana-luiza.jpeg
+﻿Coloque aqui a foto da Marina com o nome exato: marina.png
 
-Caminho final: assets/ana-luiza.jpeg
+Caminho final: assets/marina.png
